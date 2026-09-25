@@ -1,0 +1,110 @@
+.app{
+  width: 500px;
+  margin:50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0, 0,0.1);
+}
+
+body{
+  margin: 0;
+  background-color:  #f5e6ea;
+  font-family: Arial, sans-serif;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+
+}
+
+.task-input{
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.add-button{
+    padding: 10px 15px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #b04255;
+  color: white;
+  cursor: pointer;
+}
+
+.filter-button{
+  padding: 8px 12px;
+  margin: 15px 4px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0d4d0;
+  cursor: pointer;
+}
+
+.task {
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+}
+
+.complete-button,
+.delete-button{
+  padding: 7px 12px;
+  margin-right: 6px;
+  border:none;
+  border-radius: 6px;
+  cursor: pointer;
+  color:black;
+  background-color: #f0d4d9;
+  transition: 0.2s;
+}
+
+.delete-button{
+   background-color: #b04255;
+  color: white;
+}
+
+.task p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #8f3345;
+}
+
+.filter-button:hover {
+  background-color: #e3bfc7;
+}
+
+.complete-button:hover {
+  background-color: #e3bfc7;
+}
+
+.delete-button:hover {
+  background-color: #8f3345;
+}
+
+.subtitle{
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.input-area{
+  display: flex;
+  justify-content: center;
+  gap:8px;
+}
+
+.filter-button{
+  margin-top: 20px;
+}
